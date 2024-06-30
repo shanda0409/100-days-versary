@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Pacifico&family=Lobster&family=Alex+Brush&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background: rgb(53, 26, 88); */
+    background: linear-gradient(90deg, rgba(53, 26, 88, 1) 0%, rgba(9, 9, 121, 1) 53%, rgba(156, 107, 255, 1) 100%);
+}
+
+.wish {
+    color: rgb(255, 244, 181);
+    width: 100%;
+    border-bottom: 1px dotted #FFD700;
+    /* margin: 50px; */
+    /* height: 100px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.wish h1 {
+    font-size: 5.5em;
+    font-family: 'Great Vibes', cursive;
+    color: #FFD700;
+    padding: 0;
+    margin-bottom: -15px;
+}
+
+.wish h1 p#hundred {
+    font-size: 2.5em;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    padding: 0;
+    margin-top: -60px;
+    margin-bottom: -185px;
+    color: rgb(142, 255, 240);
+    /* border: 1px solid red; */
+}
+
+.wish h2 {
+    font-family: 'Alex Brush', cursive;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #D3D3D3;
+}
+
+.wish h3 {
+    font-family: 'Lobster', cursive;
+    /* font-weight: bold; */
+    font-size: 2.5em;
+    color: #D3D3D3;
+}
+
+.container {
+    color: #D3D3D3;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* border-radius: 10px; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-bottom: 1px dotted #FFD700;
+}
+
+.container h1 {
+    font-family: 'Alex Brush', cursive;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #D3D3D3;
+    margin-bottom: -10px;
+}
+
+.container h2 {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    font-size: 3em;
+    color: #FFD700;
+}
+
+.container p {
+    font-family: 'Lobster', cursive;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    filter: grayscale(90%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 7, 26, 0.4);
+    background: linear-gradient(90deg, rgba(14, 8, 22, 0.4) 0%, rgba(0, 0, 36, 0.4) 53%, rgba(7, 5, 10, 0.4) 100%);
+    border-radius: 10px;
+}
+
+.funny,
+.attention,
+.future,
+.me-4-u,
+.u-n-me,
+.love {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px dotted #FFD700;
+    color: #D3D3D3;
+    text-align: center;
+}
+
+.funny .img-text,
+.attention .img-text,
+.future .img-text,
+.me-4-u .img-text,
+.love .img-text,
+.u-n-me .img-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.funny img,
+.attention img,
+.future img,
+.me-4-u img,
+.u-n-me img,
+.love img {
+    width: 100%;
+}
+
+.funny h1,
+.attention h1,
+.future h1,
+.me-4-u h1,
+.u-n-me h1,
+.love h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #FFD700;
+    font-size: 3em;
+}
+
+.funny h2,
+.attention h2,
+.future h2,
+.me-4-u h2,
+.u-n-me h2,
+.love h2 {
+    font-family: 'Pacifico', cursive;
+    color: #D3D3D3;
+    font-size: 1.8em;
+}
+
+.funny h3,
+.attention h3,
+.future h3,
+.me-4-u h3,
+.u-n-me h3,
+.love h3 {
+    font-family: 'Lobster', cursive;
+    color: #D3D3D3;
+    font-size: 1.5em;
+}
+
+.funny h4,
+.attention h4,
+.future h4,
+.me-4-u h4,
+.u-n-me h4,
+.love h4 {
+    font-family: 'Dancing Script', cursive;
+    color: #D3D3D3;
+    font-size: 1.3em;
+}
+
+.funny p,
+.attention p,
+.future p,
+.me-4-u p,
+.u-n-me p,
+.love p {
+    /* font-family: 'Lobster', cursive; */
+    color: #D3D3D3;
+    font-size: 1em;
+}
